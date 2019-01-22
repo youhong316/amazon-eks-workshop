@@ -37,11 +37,16 @@ This is a collection of Amazon EKS popular topics and assets aimed to help you s
 
 [pahud/eks-lambda-drainer](https://github.com/pahud/eks-lambda-drainer) - Amazon EKS node drainer with AWS Lambda
 
+[Blog - Interacting with EKS via Lambda
+](http://www.nickaws.net/aws/2018/09/03/Interacting-with-EKS-via-Lambda.html) by [@nbrandaleone](https://github.com/nbrandaleone)
+
 
 
 ## Storage
 
 [Storage(PV, PVC and StatefulSet)](./02-kubectl-basic-admin/storage.md)
+
+[Amazon EKS with Amazon EFS](https://github.com/kubernetes-incubator/external-storage/tree/master/aws/efs)
 
 
 
@@ -85,11 +90,28 @@ Fluentd integration
 
 [Amazon EKS with AWS CodeBuild integration](https://github.com/pahud/eks-kubectl-docker#codebuild-support) 
 
+[Amazon EKS Continuous Deployment Sample using AWS CodePipeline](https://github.com/chankh/eksutil/tree/master/lambda/codepipeline)
 
+[Automate Kubernetes deployment on Amazon EKS with buddy.works](https://buddy.works/blog/amazon-eks-kubernetes)
+
+[Blog - Continuous Delivery with Amazon EKS and Jenkins X](https://amzn.to/2JM2luY) 
+
+## Service Discovery
+
+[ExternalDNS and Route53 Auto Naming API](https://dev.classmethod.jp/cloud/aws/external-dns-eks/)
 
 ## Service Mesh
 
-Getting Started with Istio on Amazon EKS - https://amzn.to/2wo3inY
+[Installing Istio 1.x on Amazon EKS](https://github.com/pahud/amazon-eks-workshop/tree/master/06-service-mesh/Istio)
+
+Blog - Getting Started with Istio on Amazon EKS - https://amzn.to/2wo3inY
+
+How to integrate AWS ALB with istio v1.0 by *Chuan-Yen Chiang* - https://medium.com/@cy.chiang/how-to-integrate-aws-alb-with-istio-v1-0-b17e07cae156
+
+
+## CloudWatch Events Integration
+
+[CloudWatch Events scheduled kubectl execution from within AWS Fargate](https://github.com/pahud/eks-kubectl-docker#aws-fargate-with-cloudwatch-event-scheduled-events)([Tweet](https://twitter.com/pahudnet/status/1047166317042618368))
 
 
 
